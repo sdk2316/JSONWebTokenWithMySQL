@@ -1,0 +1,23 @@
+1 register with application 
+http://localhost:8081/user/register
+/*   {   
+        "firstName":"Durgesh",
+       "lastName":"Gupta",
+       "username":"Naagrani",
+       "email":"Naagrani@gmail.com"
+     
+   } */
+   
+   2 login
+    //http://localhost:8081/user/login
+    /*
+     
+      { 
+    "password":"A1920HE2z0",
+    "username":"Naagrani"
+} 
+     * */
+     
+     once you login you will get token in header section
+     3) to access any of http method pass token in authoriazation in hraders sectionin form of key value pair
+     Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdWQiOiJVc2VyIE1hbmFnZW1lbnQgUG9ydGFsIiwic3ViIjoiTmFhZ3JhbmkiLCJpc3MiOiJHZXQgQXJyYXlzLCBMTEMiLCJleHAiOjE2NTgxNTc2MDIsImlhdCI6MTY1NzcyNTYwMiwiYXV0aG9yaXRpZXMiOlsidXNlcjpyZWFkIl19.pb7rPsdMwyJ5N06qljYdrZIlzETWb6zy46o5WS9S-qcEvGJcJbufLDOt7-nzS_d8lpfubl5ZgYWDwPi47rcFRw
